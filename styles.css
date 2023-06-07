@@ -1,0 +1,91 @@
+/* Reset some default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the title bar */
+.title-bar {
+  background-color: #0078D7;
+  color: white;
+  padding: 5px;
+}
+
+.title-bar-text {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.title-bar-buttons {
+  display: inline-block;
+  float: right;
+}
+
+.title-bar-buttons div {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: 5px;
+  background-color: white;
+  display: inline-block;
+}
+
+/* Styling for the main content */
+.main {
+  padding: 20px;
+}
+
+.window {
+  background-color: white;
+  border: 1px solid #C8C8C8;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.window-title-bar {
+  background-color: #0078D7;
+  color: white;
+  padding: 5px;
+}
+
+.window-title {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.window-buttons {
+  display: inline-block;
+  float: right;
+}
+
+.window-buttons div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 5px;
+  background-color: white;
+  display: inline-block;
+}
+
+.window-content {
+  padding: 10px;
+}
+
+/* Additional styling */
+h2 {
+  color: #0078D7;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li:before {
+  content: "•";
+  color: #0078D7;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
